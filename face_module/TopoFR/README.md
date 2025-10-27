@@ -1,5 +1,7 @@
 <h2 align="center">TopoFR: A Closer Look at Topology Alignment on Face Recognition
 <h5 align="center"> If you like TopoFR, please give us a star ⭐ on GitHub for the latest update~
+<h5 align="center"> <a href='https://huggingface.co/spaces/developer0hye/TopoFR-Face-Recognition'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue'></a>
+  
 </h2>
 
 This is the official PyTorch implementation of ["[NeurIPS 2024] TopoFR: A Closer Look at Topology Alignment on Face Recognition"](https://proceedings.neurips.cc/paper_files/paper/2024/hash/419b6c974712adb884bfbbeea8e94d1b-Abstract-Conference.html).
@@ -28,6 +30,10 @@ You can download the test dataset IJB-C as follows:
 ```
 python -m torch.distributed.launch --nproc_per_node=4 --nnodes=1 --node_rank=0 --master_addr="127.0.0.1" --master_port=12581 train.py 
 ```
+
+## Hugging Face
+You can easily experience our model on the Hugging Face space:
+<a href='https://huggingface.co/spaces/developer0hye/TopoFR-Face-Recognition'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue'></a>
 
 ## How to Test Models
 1. You need to modify the path of IJB-C dataset in eval_ijbc_ms1mv2.py and eval_ijbc_glint360k.py.
@@ -69,12 +75,15 @@ python eval_ijbc_glint360k.py --model-prefix work_dirs/glint360k_r100/Glint360K_
 * If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
 ```
 @article{dan2024topofr,
-  title={TopoFR: A Closer Look at Topology Alignment on Face Recognition},
+  title={Topofr: A closer look at topology alignment on face recognition},
   author={Dan, Jun and Liu, Yang and Deng, Jiankang and Xie, Haoyu and Li, Siyuan and Sun, Baigui and Luo, Shan},
-  journal={arXiv preprint arXiv:2410.10587},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={37213--37240},
   year={2024}
 }
 ```
 
 ## Acknowledgments
-We thank Insighface for the excellent [code base](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_torch).
+We thank Insighface for the excellent [code base](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_torch).  
+We would like to express our gratitude to the researcher [@developer0hye](https://github.com/developer0hye) for providing an outstanding [HF demo](https://huggingface.co/spaces/developer0hye/TopoFR-Face-Recognition).
