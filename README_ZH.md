@@ -32,6 +32,7 @@ FaceChain的模型由[ModelScope](https://github.com/modelscope/modelscope)开�
 
 
 # News
+- Facechain算法创新工作[TransFace++](https://ieeexplore.ieee.org/abstract/document/11184862) 在期刊TPAMI上发表! (2025-09-30)
 - Facechain算法创新工作[FaceChain-MMID](https://www.sciencedirect.com/science/article/abs/pii/S0031320325005187) 在期刊Pattern Recognition上发表! (2025-05-30)
 - 更多关于FaceChain-FACT免训练工作的技术细节可以在 [论文](https://arxiv.org/abs/2410.12312) 里查看. (2024-10-17)
 - Facechain算法创新工作[TopoFR](https://arxiv.org/abs/2410.10587) 被NeurIPS 2024接收录用! (2024-09-26)
