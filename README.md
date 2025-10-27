@@ -10,6 +10,7 @@
 </p>
 
 # News
+- Our work [TransFace++](https://ieeexplore.ieee.org/document/11184862) got accepted to TPAMI ! (September 30th, 2025 UTC)
 - Our work [FaceChain-MMID](https://www.sciencedirect.com/science/article/abs/pii/S0031320325005187) got accepted to Pattern Recognition ! (May 30th, 2025 UTC)
 - More Technology Details of FaceChain-FACT train-free portrait generation can be seen in [Paper](https://arxiv.org/abs/2410.12312). (October 17th, 2024 UTC)
 - Our work [TopoFR](https://arxiv.org/abs/2410.10587) got accepted to NeurIPS 2024 ! (September 26th, 2024 UTC)
